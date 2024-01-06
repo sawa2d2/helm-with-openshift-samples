@@ -1,5 +1,5 @@
 ## StackEdit
-手順は https://github.com/benweet/stackedit/blob/6dce2a5e36b755a0c244522b48a06c91a2df0f59/README.md#deploy-with-helm に従う。
+手順は https://github.com/benweet/stackedit?tab=readme-ov-file#deploy-with-helm に従う。
 
 ```
 git clone git@github.com:benweet/stackedit.git
