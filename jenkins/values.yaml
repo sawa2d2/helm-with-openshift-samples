@@ -1,0 +1,23 @@
+#namespaceOverride: jenkins
+controller:
+  sidecars:
+    initContainerResources:
+      requests: {}
+  initContainerResources:
+    requests: {}
+
+  usePodSecurityContext: true
+  runAsUser: 0
+  fsGroup: 0
+  containerSecurityContext:
+    runAsUser: 0
+    runAsGroup: 0
+    readOnlyRootFilesystem: false
+
+persistence:
+  storageClass: ocs-storagecluster-ceph-rbd
+
+agent:
+  resources: {}
+  initContainerResources:
+    requests: {}

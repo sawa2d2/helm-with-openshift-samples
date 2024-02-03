@@ -1,1 +1,2 @@
-# k8s-playground
+# Samples Using Helm with OpenShift
+
